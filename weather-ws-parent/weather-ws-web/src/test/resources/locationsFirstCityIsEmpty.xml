@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<locations>
+  <location country="CZ" city="" />
+  <location  city="Vilnius" />
+  <location country="PL" city="Warsaw" />
+  <location country="SK" city="Bratislava" />
+  <location country="CA" city="San_Francisco" />
+</locations>
