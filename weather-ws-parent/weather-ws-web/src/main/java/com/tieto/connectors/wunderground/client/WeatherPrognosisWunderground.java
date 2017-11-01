@@ -22,7 +22,7 @@ import com.tieto.objects.domain.WeatherDO;
 public class WeatherPrognosisWunderground implements WeatherPrognosisConnector {
   private static final Logger LOG = LogManager.getLogger(WeatherPrognosisWunderground.class);
   private static final String JSON_FORMAT = ".json";
-  private static final String URL_WUNDERGROUND = "http://api.wunderground.com/api/4903fff3b0d72970/conditions/q/";
+  private static final String URL_WUNDERGROUND = "http://api.wunderground.com/api/<yourWunderGroundApiKey>/conditions/q/";
   private static final String INVALID_COUNTRY_PARAMETERS = "Country must not be null or empty";
   private static final String INVALID_CITY_PARAMETERS = "City must not be null or empty";
 
